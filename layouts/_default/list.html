@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+    {{ range .Pages.GroupByDate "2006" }}
+        <h3>{{ .Key }}</h3>
+       
+            <ul>
+                {{ range where .Pages "Type" "posts" }}
+                    <li>
+                        <span class="meta">{{ .Date.Format "Jan 2" }}</span>
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </li>
+                {{ end }}
+            </ul>
+    {{ end }}
+
+{{ end }}
