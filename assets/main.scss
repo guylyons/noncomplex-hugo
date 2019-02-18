@@ -1,5 +1,4 @@
 @import "normalize.scss";
-
 body {
     font-family: "Avenir Next", "Helvetica Neue";
 }
@@ -32,6 +31,7 @@ pre {
 }
 
 /* nav */
+
 .header {
     display: flex;
     align-items: baseline;
@@ -39,7 +39,7 @@ pre {
     margin-bottom: 1.5em;
     border-bottom: 2px solid #eee;
     padding: 1em 0;
-    a { 
+    a {
         text-decoration: none;
         &:hover {
             text-decoration: underline;
@@ -57,14 +57,20 @@ a {
     width: 100%;
 }
 
-.posts-list {
- 
-        list-style: none; 
-        padding-left: 15px;
+.meta {
+    color: #444;
+}
 
+.posts-list {
+    list-style: none;
+    padding-left: 15px;
     .meta {
         padding-right: 10px;
         margin-right: 10px;
         border-right: 2px solid #eee;
     }
+}
+
+.primary-footer {
+    border-top: 2px solid #eee;
 }
