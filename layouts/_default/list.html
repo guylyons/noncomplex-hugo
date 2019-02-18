@@ -2,11 +2,10 @@
 
     {{ range .Pages.GroupByDate "2006" }}
         <h3>{{ .Key }}</h3>
-       
-            <ul>
+            <ul class="posts-list">
                 {{ range where .Pages "Type" "posts" }}
                     <li>
-                        <span class="meta">{{ .Date.Format "Jan 2" }}</span>
+                        <span class="meta">{{ .Date.Format "Jan 02" }}</span>
                         <a href="{{ .Permalink }}">{{ .Title }}</a>
                     </li>
                 {{ end }}
