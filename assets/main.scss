@@ -4,8 +4,16 @@ body {
 }
 
 img {
+    max-width: 100%;
+}
+
+img.full-width {
     width: 100%;
     height: auto;
+}
+
+.center {
+    text-align: center;
 }
 
 .container {
@@ -37,10 +45,15 @@ pre {
     align-items: baseline;
     justify-content: space-between;
     margin-bottom: 1.5em;
-    border-bottom: 2px solid #eee;
-    padding: 1em 0;
     a {
+        padding: 1em;
         text-decoration: none;
+        &:first-child {
+            padding-left: 0;
+        }
+        &:last-child {
+            padding-right: 0;
+        }
         &:hover {
             text-decoration: underline;
         }
@@ -64,13 +77,16 @@ a {
 .posts-list {
     list-style: none;
     padding-left: 15px;
+    li {
+        display: flex;
+        justify-content: space-between;
+    }
     .meta {
         padding-right: 10px;
         margin-right: 10px;
-        border-right: 2px solid #eee;
     }
 }
 
 .primary-footer {
-    border-top: 2px solid #eee;
+
 }

@@ -2,7 +2,9 @@
 {{ define "main" }}
 
 <h1>{{ .Title }}</h1>
-<span class="meta">{{ .Date.Format "Monday, January 2, 2006" }}</span>
+{{ if .Date }}
+    <span class="meta">{{ .Date.Format "Monday, January 2, 2006" }}</span>
+{{ end }}
 
 {{ .Content }}
 
