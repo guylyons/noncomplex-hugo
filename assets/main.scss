@@ -48,17 +48,10 @@ article {
 .header {
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
-    margin-bottom: 1.5em;
+    margin: auto -15px;
     a {
         padding: 1em;
         text-decoration: none;
-        &:first-child {
-            padding-left: 0;
-        }
-        &:last-child {
-            padding-right: 0;
-        }
         &:hover {
             text-decoration: underline;
         }
