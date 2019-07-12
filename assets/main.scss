@@ -18,6 +18,13 @@ img.full-width {
     height: auto;
 }
 
+summary {
+    padding: 1em 0;
+    &:hover {
+	cursor: pointer;
+    }
+}
+
 .center {
     text-align: center;
 }
