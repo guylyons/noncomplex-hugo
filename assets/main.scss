@@ -1,4 +1,5 @@
 @import "normalize.scss";
+
 body {
     font-family: "Helvetica Neue", "Helvetica";
     background: #ffefe3;
@@ -20,8 +21,9 @@ img.full-width {
 
 summary {
     padding: 1em 0;
+
     &:hover {
-	cursor: pointer;
+        cursor: pointer;
     }
 }
 
@@ -37,19 +39,6 @@ summary {
     padding: 0 2em;
 }
 
-code,
-kbd,
-samp,
-pre {
-    overflow: scroll;
-}
-
-pre {
-    border: 2px solid #fff;
-    padding: 10px;
-    font-size: 14px;
-}
-
 article {
     margin-top: 3em;
     margin-bottom: 4em;
@@ -61,10 +50,12 @@ article {
     display: flex;
     align-items: baseline;
     margin: auto -15px;
+
     a {
         padding: 1em;
         text-decoration: none;
-	display: inline-flex;
+        display: inline-flex;
+
         &:hover {
             text-decoration: underline;
         }
@@ -88,10 +79,12 @@ a {
 .posts-list {
     list-style: none;
     padding-left: 15px;
+
     li {
         display: flex;
         justify-content: space-between;
     }
+
     .meta {
         padding-right: 10px;
         margin-right: 10px;
@@ -101,8 +94,3 @@ a {
 .primary-footer {
     padding: 1em 0;
 }
-
-// .jimly {
-//     background-color: #FAACA8;
-//     background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
-// }
