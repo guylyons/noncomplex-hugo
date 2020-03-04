@@ -26,8 +26,9 @@ img.full-width {
 
 summary {
     padding: 1em 0;
+
     &:hover {
-	cursor: pointer;
+        cursor: pointer;
     }
 }
 
@@ -43,19 +44,6 @@ summary {
     padding: 0 2em;
 }
 
-code,
-kbd,
-samp,
-pre {
-    overflow: scroll;
-}
-
-pre {
-    border: 2px solid #fff;
-    padding: 10px;
-    font-size: 14px;
-}
-
 article {
     margin-top: 3em;
     margin-bottom: 4em;
@@ -67,10 +55,12 @@ article {
     display: flex;
     align-items: baseline;
     margin: auto -15px;
+
     a {
         padding: 1em;
         text-decoration: none;
-	display: inline-flex;
+        display: inline-flex;
+
         &:hover {
             text-decoration: underline;
         }
