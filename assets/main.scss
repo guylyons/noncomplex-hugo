@@ -1,7 +1,13 @@
 @import "normalize.scss";
+
+$light: #dae1e5;
+$dark: #101225;
+
 body {
     font-family: "Helvetica Neue", "Helvetica", sans-serif;
-    background: #ffefe3;
+    font-size: 17px;
+    background: $dark;
+    color: $light;
 }
 
 h1 {
@@ -72,7 +78,7 @@ article {
 }
 
 a {
-    color: #cb56d6;
+    color: #5460ca;
 }
 
 .profile {
@@ -82,16 +88,13 @@ a {
 }
 
 .meta {
-    color: #444;
+    border: 1px solid;
+    padding: 2px 8px;
 }
 
 .posts-list {
     list-style: none;
     padding-left: 15px;
-    li {
-        display: flex;
-        justify-content: space-between;
-    }
     .meta {
         padding-right: 10px;
         margin-right: 10px;
@@ -101,8 +104,3 @@ a {
 .primary-footer {
     padding: 1em 0;
 }
-
-// .jimly {
-//     background-color: #FAACA8;
-//     background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
-// }
