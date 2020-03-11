@@ -3,7 +3,7 @@
 
 name = "noncomplex"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
+licenselink = "https://github.com/guylyons/noncomplex/LICENSE"
 description = "Simple starter theme for Hugo"
 homepage = "https://yugsnoyl.com/noncomplex"
 tags = ["starter"]
