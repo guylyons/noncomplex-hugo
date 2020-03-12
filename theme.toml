@@ -6,7 +6,7 @@ license = "MIT"
 licenselink = "https://github.com/guylyons/noncomplex/LICENSE"
 description = "Simple starter theme for Hugo"
 homepage = "https://yugsnoyl.com/noncomplex"
-tags = ["starter"]
+tags = ["starter", "basic"]
 features = []
 min_version = "0.54"
 
