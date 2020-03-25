@@ -1,94 +1,102 @@
-$light: #dae1e5;
+$light: #fff;
 $dark: #101225;
+$link: blue;
 
 body {
-    font-family: "Helvetica Neue", "Helvetica", sans-serif;
-    font-size: 17px;
-    background: $dark;
-    color: $light;
+  background: $light;
+  color: $dark;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  font-size: 17px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Source Code Pro", monospace;
 }
 
 h1 {
-    margin-bottom: 1em;
-    font-size: 2.4em;
+  font-weight: bold;
+  margin-bottom: 1em;
+  font-size: 2.4em;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 img.full-width {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 summary {
-    padding: 1em 0;
+  padding: 1em 0;
 
-    &:hover {
-        cursor: pointer;
-    }
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .container {
-    position: relative;
-    max-width: 700px;
-    margin: 0 auto;
-    width: 100%;
-    padding: 0 2em;
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 2em;
 }
 
 article {
-    margin-top: 3em;
-    margin-bottom: 4em;
+  margin-top: 3em;
+  margin-bottom: 4em;
 }
 
 /* nav */
 
 .header {
-    display: flex;
-    align-items: baseline;
-    margin: auto -15px;
+  display: flex;
+  align-items: baseline;
+  margin: auto -15px;
 
-    a {
-        padding: 1em;
-        text-decoration: none;
-        display: inline-flex;
+  a {
+    padding: 1em;
+    text-decoration: none;
+    display: inline-flex;
 
-        &:hover {
-            text-decoration: underline;
-        }
+    &:hover {
+      text-decoration: underline;
     }
+  }
 }
 
 a {
-    color: #5460ca;
+  color: $link;
 }
 
 .profile {
-    border-radius: 50%;
-    max-width: 150px;
-    width: 100%;
+  border-radius: 50%;
+  max-width: 150px;
+  width: 100%;
 }
 
 .meta {
-    border: 1px solid;
-    padding: 2px 8px;
+  padding: 2px 8px;
+  background: #eee;
+  font-size: 14px;
 }
 
 .posts-list {
-    list-style: none;
-    padding-left: 15px;
-    .meta {
-        padding-right: 10px;
-        margin-right: 10px;
-    }
+  list-style: none;
+  padding-left: 15px;
+  .meta {
+    padding-right: 10px;
+    margin-right: 10px;
+  }
 }
 
 .primary-footer {
-    padding: 1em 0;
+  padding: 1em 0;
 }
