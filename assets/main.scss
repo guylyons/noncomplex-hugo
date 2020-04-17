@@ -43,10 +43,14 @@ summary {
 
 .container {
   position: relative;
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
   width: 100%;
   padding: 0 2em;
+}
+.content {
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 article {
@@ -119,15 +123,5 @@ pre {
   overflow-x: scroll;
   overflow-y: hidden;
   color: #000;
-  position: relative;
-}
-pre::before {
-  content: "code";
-  border: 2px solid;
-  padding: 2px;
-  position: absolute;
-  right: 0;
-  top: 0;
-  font-size: 12px;
 }
 
